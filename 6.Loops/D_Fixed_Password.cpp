@@ -1,7 +1,7 @@
 
 // ======================================================
 //  Author       : spexcher | Gourab Modak
-//  Created      : 07.04.2026 at 13:29:00
+//  Created      : 07.04.2026 at 18:12:32
 //  Contact      : spexcher@gmail.com
 //  Linktree     : https://linktr.ee/spexcher/
 //  GitHub       : https://github.com/spexcher/
@@ -16,6 +16,16 @@ using namespace std;
 #define ll long long
 int main()
 {
-    ;
+    string s;
+    while (getline(cin, s))
+    {
+        ll u = stoll(s);
+        if (u == 1999)
+        {
+            cout << "Correct" << '\n';
+            break;
+        }
+        cout << "Wrong" << '\n';
+    }
     return 0;
 }
